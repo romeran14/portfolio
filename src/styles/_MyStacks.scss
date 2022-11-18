@@ -1,0 +1,71 @@
+.mystacks{
+  .container {
+    width: 650px;
+    height: 250px;
+    display: flex;
+    overflow: hidden;
+    margin: 0;
+    list-style: none;
+    /* grid-template-columns: repeat(5, 1fr); */
+    /* grid-template-rows: repeat(2, 1fr); */
+    /* gap: 15px; */
+    padding: 15px;
+    /* background: rgba(255, 255, 255, 0.2); */
+    border-radius: 20px;
+    margin-inline: auto;
+    border: 2px solid white;
+    margin-top: 70px;
+    padding-bottom: 0;
+    flex-wrap: wrap;
+}
+      
+ .item {
+  background: white;
+  border-radius: 100%;
+  width: 17%;
+  margin-inline: auto;
+  margin-bottom: 2%;
+  display: grid;
+  place-content: center;
+}
+.item-hover{
+
+  //transition:  ease-in-out 0.2s;
+ // transform-origin: top;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  /*
+  h4{
+    display: none;
+    opacity: 0;
+    height: 0;
+   
+
+  }
+  .spanstackicon{
+    font-size: 60px;
+    display: flex;
+    text-align: center;
+    color: gray !important ;
+    display: grid;
+    place-content: center;
+  }
+
+  &:hover{
+    transition:  ease-in-out 0.3s;
+    color:inherit !important;
+    h4{
+      display: block;
+      opacity: 1;
+      height: 18px;
+      color: inherit !important;
+    }
+    .spanstackicon{
+      font-size: 35px;
+      color:initial !important;
+    }
+  }*/
+}
+}

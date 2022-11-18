@@ -1,0 +1,17 @@
+@import url('https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&display=swap');
+$Dosis:'Dosis';
+
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: 0;
+    font-family: $Dosis;
+    color: #fff;
+    font-size: 16px;
+}
+
+@import 'styles/BgAnimated';
+@import 'styles/Layout';
+@import 'styles/TextSpan';
+@import 'styles/WelcomeTitle';
+@import 'styles/MyStacks';
