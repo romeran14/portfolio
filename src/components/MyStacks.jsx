@@ -89,7 +89,7 @@ const MyStacks = () => {
       >
         {stacks.map((stack,index) => (
           <motion.li key={index}  className="item" variants={item} >
-            <motion.div whileHover={{color: stack.color, scale : 1.1}} transition={'0.1s'} style={{color: 'rgb(153, 153, 153);'}} className="item-hover">
+            <motion.div whileHover={{color: stack.color, scale : 1.1}} transition={'0.1s'} style={{color: 'gray'}} className="item-hover">
             <Icon className="spanstackicon" height={12} width={12}   as={ stack.icon }  />
             <h4>{stack.name}</h4>
             </motion.div>

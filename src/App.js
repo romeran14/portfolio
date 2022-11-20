@@ -11,7 +11,7 @@ function App() {
         <Layout>
         <WelcomeTItle/>
         <MyStacks/>
-     
+     <SomeProjects></SomeProjects>
         </Layout>
         <BgAnimated/>
 
