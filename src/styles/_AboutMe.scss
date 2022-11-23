@@ -1,0 +1,113 @@
+
+
+.menu{
+  filter: drop-shadow(1px 1px 1px #4700b3);
+ // width: 300px;
+position: relative;
+margin-top: 50px;
+  .box {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background: magenta;
+    margin: 0;
+  }
+  
+  
+  
+  ul {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-radius: 20px;
+    width: 75%;
+    margin-right: 0;
+    margin-left: 25% !important;
+    border: 2px solid #fff;
+    padding: 20px;
+    transform: translateY(-200px) !important;
+    @media (min-width: 980px) and (max-width: 1366px) {
+    transform: translateY(-150px) !important;
+    }
+    @media (min-width: 768px) and (max-width: 979px) {
+      transform: translateY(-110px) !important;
+      }
+      @media (max-width: 767px) {
+        transform: translateY(-100px) !important;
+        }
+  }
+  
+  li {
+    color: #fff;
+    display: block;
+    text-shadow: purple 1px 1px 5px;
+    a{
+      cursor: pointer;
+      font-weight:600;
+      svg{
+        display: inline-block;
+      }
+    }
+  }
+  
+  ul,
+  li {
+    list-style: none;
+    margin: 0;
+  
+  }
+
+  .quote{
+         display: flex; 
+    justify-content: flex-end;
+  }
+  
+  button {
+    cursor: pointer;
+
+    text-align: left;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: auto;
+    width: 15%;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 2px solid white;
+    margin-inline: auto;
+    @media (min-width: 768px) and (max-width: 979px) {
+      width: 17%;
+      }
+      @media (max-width: 767px) {
+        width: 16.5%;
+        }
+    img{
+      border-radius: 50%;
+    }
+  }
+
+  
+  .example {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+  }
+  
+  .item {
+    width: 300px;
+    height: 300px;
+    display: flex;
+    align-items: flex-start;
+    justify-content: center;
+    background: violet;
+    color: midnightblue;
+    font-size: 240px;
+    line-height: 260px;
+    font-weight: 700;
+    border-radius: 30px;
+  }
+  
+}
+

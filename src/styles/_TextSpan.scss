@@ -4,4 +4,7 @@
     color: #fff;
     line-height: 1em;
     font-weight: 100;
+    @media (max-width: 480px){
+    font-size: 36px;
+    }
 }

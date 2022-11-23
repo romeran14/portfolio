@@ -88,9 +88,10 @@ const MyStacks = () => {
         animate="visible"
       >
         {stacks.map((stack,index) => (
-          <motion.li key={index}  className="item" variants={item} >
-            <motion.div whileHover={{color: stack.color, scale : 1.1}} transition={'0.1s'} style={{color: 'gray'}} className="item-hover">
-            <Icon className="spanstackicon" height={12} width={12}   as={ stack.icon }  />
+          <motion.li key={index}  whileHover={{ scale : 1.2}} onHoverStart={e => {}}
+          onHoverEnd={e => {}}  className="item" variants={item} >
+            <motion.div whileHover={{color: stack.color, scale : 1.1}}  transition={'0.1s'} style={{color: '#808080'}} className="item-hover">
+            <Icon className="spanstackicon" height={{'xl':91, 'lg': 53 ,'md': 37,'sm': 40}} width={{'xl':91, 'lg': 53 ,'md': 37,'sm': 40}}   as={ stack.icon }  />
             <h4>{stack.name}</h4>
             </motion.div>
 
