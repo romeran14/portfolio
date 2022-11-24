@@ -1,6 +1,6 @@
 import React from "react";
 import { useState } from "react";
-import { motion, AnimatePresence, Variants, delay } from "framer-motion";
+import { motion } from "framer-motion";
 import { ImQuotesLeft, ImQuotesRight } from "react-icons/im";
 import {BsFileEarmarkPdfFill} from "react-icons/bs"
 
@@ -37,7 +37,6 @@ const AboutMe = () => {
         variants={{
           open: {
             clipPath: "inset(0% 0% 0% 0% round 10px)",
-         //   y: "-150px",
             transition: {
               type: "spring",
               bounce: 0,
@@ -49,7 +48,6 @@ const AboutMe = () => {
           },
           closed: {
             clipPath: "inset(10% 50% 90% 50% round 10px)",
-          //  y: "0",
             transition: {
               type: "spring",
               bounce: 0,

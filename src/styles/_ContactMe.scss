@@ -1,0 +1,51 @@
+.contactme {
+    display: flex;
+    box-sizing: border-box;
+    border: 2px solid #fff;
+    padding: 0 20px;
+    border-radius: 20px;
+
+    @media (max-width: 767px) {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+
+    .left-box {
+        width: 39%;
+
+        @media (max-width: 767px) {
+            width: 100%;
+
+        }
+    }
+
+    .right-box {
+        width: 59%;
+        color: #fff;
+        display: flex;
+        align-items: center;
+        font-size: 30px;
+
+        @media (max-width: 767px) {
+            width: 100%;
+            font-size: 20px;
+            margin-top: 20px;
+        }
+    }
+
+    .item {
+        width: 70%;
+        overflow: visible;
+        stroke: #fff;
+        stroke-width: 3;
+        stroke-linejoin: bevel;
+        stroke-linecap: butt;
+    }
+
+    svg#ROME {
+        margin-inline: auto;
+    }
+    a {
+        font-weight: bold;
+    }
+}

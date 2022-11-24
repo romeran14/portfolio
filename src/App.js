@@ -5,6 +5,8 @@ import MyStacks from "./components/MyStacks";
 import SomeProjects from "./components/SomeProjects";
 import AboutMe from "./components/AboutMe";
 import Presence from "./components/Presence";
+import ContactMe from "./components/ContactMe";
+import Titles from "./components/Titles";
 
 function App() {
   return (
@@ -12,10 +14,14 @@ function App() {
  
         <Layout>
         <WelcomeTItle/>
+        <Titles>My Stacks</Titles>
         <MyStacks/>
-        <Presence> <SomeProjects></SomeProjects></Presence>
+        <Titles>Click me to Known More About Me</Titles>
         <Presence><AboutMe></AboutMe></Presence>
-     
+        <Titles titleproject={"titleproject"}>Some of my Projects</Titles>
+        <Presence> <SomeProjects></SomeProjects></Presence>
+        <Titles>Contact me</Titles>
+        <Presence><ContactMe></ContactMe></Presence>
         </Layout>
         <BgAnimated/>
 

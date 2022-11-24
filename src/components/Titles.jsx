@@ -1,18 +1,19 @@
 import { AnimatePresence, motion } from "framer-motion";
 import React from "react";
 
-const Presence = ({ children }) => {
+const Titles = ({ children, titleproject }) => {
   return (
     <AnimatePresence>
       <motion.div
-        initial={{ opacity: 0, x: "-300px" }}
+        className={`titles ${titleproject && titleproject}`}
+        initial={{ opacity: 0, x: "300px" }}
         whileInView={{ opacity: 1, x: "0px" }}
         viewport={{ once: true, amount: 0.5 }}
       >
-      {children}
+       <h2>{children}</h2> 
       </motion.div>
     </AnimatePresence>
   );
 };
 
-export default Presence;
+export default Titles;
