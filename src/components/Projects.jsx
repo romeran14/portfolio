@@ -50,12 +50,12 @@ export const Projects = [
     },
     // Photo by Siora Photography on Unsplash
     {
-      id: "h",
-      name: "Fake Twitter",
-      description: "In this imitation of the famous social network you can register (try it, it's quick and easy), you can create posts, mention other users, post images, visit user profiles, interact with other posts and more.",
-      madeOf:"This WebApp was done using React.js fetching data from a server made on express.js. The server interacts with a SQL database and returns json data to the client. The UI look and feel was done using SASS, Chakra UI and FramerMotion. Various Javascript libraries were used as a complement such as: moment.js, Axios, Lodash, cloudinary, react-router, react-mentions and more... ",
+      id: "b",
+      name: "Drug Store",
+      description: "In this Drug store example you can see a catalog of drugs and buy some pills",
+      madeOf:"This WebApp was done using React.js fetching data from a server made on express.js. The server interacts with a SQL database and returns json data to the client. The UI look and feel was done using CSS and Bootstrap. Various Javascript libraries were used as a complement such as:  Axios, react-router, swalt and more... ",
       backgroundColor: "#959684",
-      url:'https://faketwitter-front.vercel.app'
+      url:'https://drugstore-front-bzmzn64t9-romeran14.vercel.app/'
     },
 
   ];

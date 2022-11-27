@@ -75,7 +75,7 @@ const AboutMe = () => {
         </motion.li>
         <motion.li variants={itemVariants}>
           <a target={"_blank"} href=".././cv-Romeran-Rodriguez.pdf">
-            Dowload Resume <BsFileEarmarkPdfFill/>
+            Download Resume <BsFileEarmarkPdfFill/>
           </a>
         </motion.li>
       </motion.ul>
