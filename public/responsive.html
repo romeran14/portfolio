@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <style type="text/css">
+   #container p{
+     margin: 10px;
+     background-color: aqua;
+
+   }
+   #container {
+     display: flex;
+     flex-direction: column;
+     justify-content: center;
+     align-items: center;
+
+   }
+  </style>
+</head>
+
+<body>
+
+
+  <!-- Ventana modal, por defecto no visiblel -->
+  <div id="container" >
+   <h1>Lista</h1>
+  </div>
+
+</body>
+<script>
+  // Ventana modal
+  var container = document.getElementById("container");
+  const req = async () =>{
+     const obj= await  fetch("https://jsonplaceholder.typicode.com/todos")
+    const parseado = await obj.json()
+    return parseado
+  }
+
+
+
+
+const iterando = async () =>{
+  const objeto = await req()
+  for (let step = 0; step < 5; step++) {
+    var newDiv = document.createElement("p");
+    
+
+  var newContent = document.createTextNode(`Titulo ${objeto[step].title} Completed ${objeto[step].completed} </br>`);
+
+  container.appendChild(newContent); 
+
+}
+
+}
+iterando()
+
+
+</script>
+
+</html>

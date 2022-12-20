@@ -5,7 +5,7 @@ const Presence = ({ children }) => {
   return (
     <AnimatePresence>
       <motion.div
-        initial={{ opacity: 0, x: "300px" }}
+        initial={{opacity: 0, x: "100px" }}
         whileInView={{ opacity: 1, x: "0px" }}
         viewport={{ once: true, amount: 0.5 }}
       >
