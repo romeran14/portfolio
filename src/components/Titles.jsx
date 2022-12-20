@@ -6,7 +6,7 @@ const Titles = ({ children, titleproject }) => {
     <AnimatePresence>
       <motion.div
         className={`titles ${titleproject && titleproject}`}
-        initial={{ opacity: 0, x: "300px" }}
+        initial={{ opacity: 0, x: "100px" }}
         whileInView={{ opacity: 1, x: "0px" }}
         viewport={{ once: true, amount: 0.5 }}
       >
