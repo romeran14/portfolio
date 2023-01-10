@@ -28,16 +28,15 @@ export const Projects = [
       backgroundColor: "#959684",
       url:'https://suarezpt.com/'
     },
-    
     {
-      id: "a",
-      name: "George Rappard MD NeuroENdospine Surgery Specialist",
-
-      description: "Dr. Rappard is a recognized medico-legal expert in NeuroEndospine surgery. He has testified in the courtroom on many occasions and remains highly regarded for his experience and his ability to educate jurors.",
-      madeOf:"This Web was done with the CMS made in php known as Joomla together with various technologies and frameworks such as: Javascript, Jquery, Bootstrap, Slick.js, Less, XML...",
+      id: "b",
+      name: "Drug Store",
+      description: "In this Drug store example you can see a catalog of drugs and buy some pills",
+      madeOf:"This WebApp was done using React.js fetching data from a server made on express.js. The server interacts with a SQL database and returns json data to the client. The UI look and feel was done using CSS and Bootstrap. Various Javascript libraries were used as a complement such as:  Axios, react-router, swalt and more... ",
       backgroundColor: "#959684",
-      url:'https://www.neuroendospine.surgery/'
+      url:'https://drugstore-front-bzmzn64t9-romeran14.vercel.app/'
     },
+ ,
     // Photo by Simone Hutsch on Unsplash https://www.washington-dental.com/
     {
       id: "e",
@@ -50,13 +49,13 @@ export const Projects = [
     },
     // Photo by Siora Photography on Unsplash
     {
-      id: "b",
-      name: "Drug Store",
-      description: "In this Drug store example you can see a catalog of drugs and buy some pills",
-      madeOf:"This WebApp was done using React.js fetching data from a server made on express.js. The server interacts with a SQL database and returns json data to the client. The UI look and feel was done using CSS and Bootstrap. Various Javascript libraries were used as a complement such as:  Axios, react-router, swalt and more... ",
+      id: "a",
+      name: "CryptoApp",
+      description: "An React App to get live information and News about Cryptos!!",
+      madeOf:"This WebApp was done using React.js fetching data through Redux-Query from a RapidApi, Antd Desing and CSS for the styles, Chart.js was used to created a chart of the CryptoCurrency Price...",
       backgroundColor: "#959684",
-      url:'https://drugstore-front-bzmzn64t9-romeran14.vercel.app/'
-    },
+      url:'https://cripto-steel.vercel.app'
+    }
 
   ];
 
