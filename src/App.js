@@ -16,7 +16,7 @@ function App() {
         <WelcomeTItle/>
         <Titles>My Stacks</Titles>
         <MyStacks/>
-        <Titles>Click me to Known More About Me</Titles>
+        <Titles>Click on me to Know More About Me</Titles>
         <Presence><AboutMe></AboutMe></Presence>
         <Titles titleproject={"titleproject"}>Some of my Projects</Titles>
         <Presence> <SomeProjects></SomeProjects></Presence>
